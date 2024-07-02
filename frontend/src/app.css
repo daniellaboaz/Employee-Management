@@ -1,0 +1,102 @@
+/* frontend/src/app.css */
+
+.main_class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 221, 203);
+    min-height: 100vh;
+}
+
+.inner_class{
+    border: 3px solid #440127; 
+    background-color: white; 
+    padding: 1rem;
+    border-radius: 0.25rem; 
+    width: 25%; 
+}
+
+.title {
+    justify-content: center;
+    padding: 0.5%;
+    display: block;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%; 
+    text-align: right; 
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.radio-label {
+    margin-right: 20px; 
+}
+
+.meeting-locations {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+.location-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-item label {
+    margin-bottom: 5px; 
+}
+
+.boxes-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box {
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.box-item {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; 
+}
+
+.box-item:hover {
+    background-color: #f0f0f0;
+}
+
+.radio-container {
+    display: flex;
+    align-items: right;
+    gap: 10px; /* Adjust as needed */
+    justify-content: right;
+}
+
+.review-image {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+}
